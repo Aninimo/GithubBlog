@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { Buildings, GithubLogo, Users, ArrowSquareOut } from 'phosphor-react'
 import { api } from '../../../../lib/axios'
 
-import { ProfileContainer, Profilecontent } from './styles'
+import { ProfileContainer } from './styles'
 
 interface ProfileData {
   login: string;
