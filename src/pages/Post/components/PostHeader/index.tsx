@@ -26,7 +26,7 @@ export function PostHeader({ postData }: PostHeaderProps){
       <ul>
         <li>         
           <GithubLogo/>
-          //{postData.user.login}
+         
         </li>
         <li>
           <Calendar/>
